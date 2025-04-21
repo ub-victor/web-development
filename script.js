@@ -5,6 +5,6 @@ unction scrollToSection(sectionId) {
     }  
 }  
 
-document.getElementById('about').onclick = function() {  
-    scrollToSection('about');  
+document.getElementById('goals').onclick = function() {  
+    scrollToSection('goals');  
 };
