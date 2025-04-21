@@ -1,4 +1,4 @@
-// JavaScript for smooth scrolling  
+// Function to scroll to specific section  
 function scrollToSection(sectionId) {  
     const section = document.getElementById(sectionId);  
     if (section) {  
@@ -6,7 +6,7 @@ function scrollToSection(sectionId) {
     }  
 }  
 
-// Adding click event listeners to the list items  
+// Adding click event listeners to each list item  
 document.getElementById('about').onclick = function() {  
     scrollToSection('about');  
 };  
