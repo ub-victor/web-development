@@ -50,33 +50,32 @@ nav ul {
   list-style: none;
 }
 
-nav li {
+nav a {
   font-size: 1.1rem;
   font-weight: 500;
   color: #333;
-  cursor: pointer;
+  text-decoration: none;
   position: relative;
   padding: 0.5rem 0;
   transition: color 0.3s ease;
 }
 
-nav li:hover {
+nav a:hover {
   color: #0066cc;
 }
 
-/* Adds a pseudo-element after each navigation list item */
-nav li::after {
-  content: ''; /* Creates an empty pseudo-element */
-  position: absolute; /* Positions the pseudo-element relative to the parent */
-  bottom: 0; /* Aligns the pseudo-element to the bottom of the parent */
-  left: 0; /* Aligns the pseudo-element to the left of the parent */
-  width: 0; /* Initially sets the width of the pseudo-element to 0 */
-  height: 2px; /* Sets the height of the pseudo-element to 2px */
-  background-color: #0066cc; /* Sets the background color to blue */
-  transition: width 0.3s ease; /* Smoothly animates the width change over 0.3 seconds */
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0066cc;
+  transition: width 0.3s ease;
 }
 
-nav li:hover::after {
+nav a:hover::after {
   width: 100%;
 }
 
