@@ -155,6 +155,18 @@ nav a:hover::after {
 }
 
 /* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h2 {
+    color: #f10202;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .hero-section p {
+    color: #f10202;
+    font-weight: 900;
+  }
+}
 
 /* About Me Section Styling */
 .about-me-section {
