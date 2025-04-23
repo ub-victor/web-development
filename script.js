@@ -7,5 +7,5 @@ document.getElementById("current-year").textContent = currentYear;
 // Change Background Color in Coding journey section 
 
 function changeBackgroundColor(color){
-    
+    let section = document.getElementById("coding-journey");
 }
