@@ -4,4 +4,4 @@ const currentYear = new Date().getFullYear();
 document.getElementById("current-year").textContent = currentYear;
 
 
-// Change Background Color in Coding journey section 
+// Change Background Color in Coding journey section
