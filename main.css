@@ -156,7 +156,7 @@ nav a:hover::after {
 
 /* Responsive Design */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero-section h2 {
     color: #f10202;
     font-weight: 600;
