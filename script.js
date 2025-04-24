@@ -13,7 +13,7 @@ function changeBackgroundColor(color) {
  * Changes the background color of all elements with the class "Coding-journey-section".
  * Applies a smooth transition effect to the background color change.
  *
- * @param {string} color - The new background color to apply (e.g., "red", "#ff0000", "rgb(255, 0, 0)").
+ *- The new background color to apply (e.g., "red", "#ff0000", "rgb(255, 0, 0)").
  *
  * This function is useful for dynamically updating the appearance of specific sections on a webpage,
  * enhancing user experience by providing visual feedback or emphasizing certain areas.
